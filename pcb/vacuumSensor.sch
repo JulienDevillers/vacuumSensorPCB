@@ -8,10 +8,10 @@ Title "Vacuum sensor"
 Date "2020-10-06"
 Rev "1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.juliendevillers.com"
+Comment2 "https://github.com/JulienDevillers/vacuumSensorPCB"
 Comment3 ""
-Comment4 ""
+Comment4 "Reproduces this design: https://makr.zone/vacuum-sensor/192/"
 $EndDescr
 $Comp
 L Amplifier_Operational:MCP6022 U2
@@ -337,6 +337,4 @@ F 3 "~" H 8850 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3250 4550
-Text Notes 8450 6350 0    50   ~ 0
-Reproduces this design: https://makr.zone/vacuum-sensor/192/
 $EndSCHEMATC
